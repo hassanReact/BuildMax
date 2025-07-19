@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>BuildMax- Home</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet"> -->
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">BUILD<span style="color: #feb304;">MAX</span></h1>
+        <span>.</span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="Portfolio.html">Portfolio</a></li>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <div class="info d-flex align-items-center justify-content-center text-center">
+        <div class="animated-title">
+          <div class="text-top">
+            <div>
+              <h1 class="hero-title">Welcome to BuildMax</h1>
+            </div>
+          </div>
+          <div class="text-bottom">
+            <div>
+              <p class="hero-subtitle">
+                BuildMax is a leading construction and project management company dedicated
+                to delivering top-notch services to clients across various industries. With a strong focus on quality,
+                safety, and innovation, we strive to exceed expectations and build long-lasting relationships.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-item">
+          <img src="assets/img/project12.jpg" alt="">
+        </div>
+
+        <div class="carousel-item active">
+          <img src="assets/img/courosal.jpg" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/kfc.jpg" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/courosal23.jpg" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/courosel5.jpg" alt="">
+        </div>
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+      </div>
+    </section>
+    <!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 position-relative order-lg-last" data-aos="fade-up" data-aos-delay="50"
+            data-aos-duration="500">
+            <img src="assets/img/construcion1.jpg" class="img-fluid" alt="" style="height: 97%;">
+            <a href="#" class="glightbox pulsating-play-btn"></a>
+          </div>
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="50" data-aos-duration="500">
+            <h3>About Us & Key Values</h3>
+            <p>BuildMax is a leading construction and project management company dedicated to delivering high-quality
+              services across various industries. We emphasize quality, safety, and innovation to consistently exceed
+              client expectations and build strong, long-term relationships.</p>
+            <ul>
+              <li>
+                <i class="bi bi-diagram-3"></i>
+                <div>
+                  <h5>Excellence in craftsmanship and service</h5>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-fullscreen-exit"></i>
+                <div>
+                  <h5>Safety and well-being of employees and clients</h5>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-broadcast"></i>
+                <div>
+                  <h5>Integrity and transparency in all dealings</h5>
+                </div>
+              </li>
+              <li>
+                <i class="bi bi-diagram-3"></i>
+                <div>
+                  <h5>Customer satisfaction and loyalty</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /About Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Featured Services</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/construcion1.jpg" class="img-fluid" alt="" style="height: 286px;">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="service-details.html" class="stretched-link">
+                  <h3>Construction Management</h3>
+                </a>
+                <p>At BuildMax, we manage your Karachi construction project from start to finish, ensuring timely,
+                  top-quality results with clear communication and local expertise.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/projectmanagement1.jpg" class="img-fluid" alt="" style="height: 286px;">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="/services-details/service-detail2.html" class="stretched-link">
+                  <h3>Project Management</h3>
+                </a>
+                <p>At BuildMax, we handle all construction projects—whether local homes or high-profile chains—ensuring
+                  precision, efficiency, and top quality.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/build&design.jpeg" class="img-fluid" alt="" style="height: 286px;">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="/services-details/service-detail3.html" class="stretched-link">
+                  <h3>Build-Design Service</h3>
+                </a>
+                <p>At BuildMax, our design-build services integrate design and construction for faster, cost-effective,
+                  and all over seamless project delivery in Pakistan.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/general contracting.jpg" class="img-fluid" alt="" style="height: 286px;">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <a href="/services-details/service-detail4.html" class="stretched-link">
+                  <h3>General Contracting</h3>
+                </a>
+                <p>At BuildMax, our general contracting services manage every aspect of your project, ensuring smooth
+                  operations and quality results on time and within budget.</p>
+                <a href="/services-details/service-detail4.html" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/civil.jpg" class="img-fluid" alt="" style="height: 286px;">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <a href="/services-details/service-detail5.html" class="stretched-link">
+                  <h3>Civil Engieering</h3>
+                </a>
+                <p>At BuildMax, our civil engineering services deliver precise infrastructure, from site assessments to
+                  structural analysis, ensuring durable and sustainable solutions.</p>
+                <a href="/services-details/service-detail5.html" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
+            <div class="service-item">
+              <div class="img">
+                <img src="assets/img/furniture.jpg" class="img-fluid" alt="" style="height: 286px;">
+              </div>
+              <div class="details position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a href="/services-details/service-detail6.html" class="stretched-link">
+                  <h3>Furniture & Architecture</h3>
+                </a>
+                <p>At BuildMax, we blend innovative architecture with custom furniture to create stylish, functional
+                  spaces tailored to your vision, Book your order Now</p>
+                <a href="/services-details/service-detail6.html" class="stretched-link"></a>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Mission & Vision</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>/ -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/features-1.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
+            <h3>Our Mission:</h3>
+            <p class="fst-italic">
+              Our mission is to be the preferred construction partner by delivering outstanding projects that meet and
+              exceed client expectations. We are committed to excellence from planning to execution, ensuring top
+              quality and innovation. By fostering strong relationships and focusing on client satisfaction, we aim to
+              set the industry standard. </p>
+            <ul>
+              <li><i class="bi bi-check"></i><span>We manage your project with precision and efficiency, ensuring
+                  timely, quality results within budget.
+                </span></li>
+              <li><i class="bi bi-check"></i> <span>We keep your project on track and on budget with clear planning and
+                  effective execution.
+
+                </span></li>
+              <li><i class="bi bi-check"></i> <span>We integrate design and construction for quick, cost-effective
+                  project delivery..
+                </span></li>
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+
+        <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/features-2.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
+            <h3>Our Vision:</h3>
+            <p class="fst-italic">
+              To establish ourselves as a leader in the construction industry by showcasing unmatched expertise,
+              maintaining the highest levels of professionalism, and upholding a steadfast commitment to excellence in
+              every project we undertake.
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i><span>To lead the construction industry with exceptional expertise and
+                  professionalism.
+
+                </span></li>
+              <li><i class="bi bi-check"></i> <span>To be recognized for our commitment to excellence in every project.
+
+
+                </span></li>
+              <li><i class="bi bi-check"></i> <span>To set the standard for quality and innovation in construction.
+                </span></li>
+              <li><i class="bi bi-check"></i> <span>To deliver unparalleled results that define industry leadership.
+
+                </span></li>
+            </ul>
+          </div>
+        </div><!-- Features Item -->
+
+        <!-- <div class="row gy-4 align-items-center features-item">
+          <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out">
+            <img src="assets/img/features-3.svg" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7" data-aos="fade-up">
+            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
+            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <ul>
+              <li><i class="bi bi-check"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
+              <li><i class="bi bi-check"></i><span> Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
+              <li><i class="bi bi-check"></i> <span>Facilis ut et voluptatem aperiam. Autem soluta ad fugiat</span>.</li>
+            </ul>
+          </div>
+        </div>Features Item -->
+
+        <!-- <div class="row gy-4 align-items-center features-item"> -->
+        <!-- <div class="col-md-5 order-1 order-md-2 d-flex align-items-center" data-aos="zoom-out"> -->
+        <!-- <img src="assets/img/features-4.svg" class="img-fluid" alt=""> -->
+        <!-- </div> -->
+        <!-- <div class="col-md-7 order-2 order-md-1" data-aos="fade-up"> -->
+        <!-- <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3> -->
+        <!-- <p class="fst-italic"> -->
+        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore -->
+        <!-- magna aliqua. -->
+        <!-- </p> -->
+        <!-- <p> -->
+        <!-- Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate -->
+        <!-- velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in -->
+        <!-- culpa qui officia deserunt mollit anim id est laborum -->
+        <!-- </p> -->
+        <!-- </div> -->
+        <!-- </div>Features Item -->
+
+        <!-- </div> -->
+
+    </section><!-- /Features Section -->
+
+    <!-- Services Section -->
+    <!-- /Services Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-Furniture">Furniture</li>
+            <li data-filter=".filter-design">Design</li>
+            <li data-filter=".filter-Map">Map</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Furniture">
+              <img src="assets/img/project2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Furniture </h4>
+                <p>Glass Door and Window</p>
+                <a href="assets/videos/1.mp4" title="Map 1" data-gallery="portfolio-gallery-Map"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Furniture">
+              <img src="assets/img/project3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Furniture 1</h4>
+                <p>Kitchen Furniture</p>
+                <a href="assets/img/project3.jpg" title="Furniture 1" data-gallery="portfolio-gallery-Furniture"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <img src="assets/img/project4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Design 1</h4>
+                <p>Design of Office</p>
+                <a href="assets/img/project4.jpg" title="Design 1" data-gallery="portfolio-gallery-Design"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Furniture">
+              <img src="assets/img/project5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Furniture 2</h4>
+                <p>Wooden Table</p>
+                <a href="assets/img/project5.jpg" title="Furniture 2" data-gallery="portfolio-gallery-Furniture"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <img src="assets/img/project6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Design 2</h4>
+                <p>Design of WashRoom</p>
+                <a href="assets/img/project6.jpg" title="design 2" data-gallery="portfolio-gallery-design"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-design">
+              <img src="assets/img/project7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Design 3</h4>
+                <p>Design of Living Room:</p>
+                <a href="assets/img/project7.jpg" title="design 2" data-gallery="portfolio-gallery-design"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Map">
+              <img src="assets/img/project8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Map 2</h4>
+                <p>Map of Building</p>
+                <a href="assets/img/project8.jpg" title="Map 3" data-gallery="portfolio-gallery-Map"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Furniture">
+              <img src="assets/img/project9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Furniture 3</h4>
+                <p>Furniture of Dinning</p>
+                <a href="assets/img/project9.jpg" title="Furniture 3" data-gallery="portfolio-gallery-Furniture"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Map">
+              <img src="assets/img/project10.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Map 3</h4>
+                <p>Map for Nelson Paint Office</p>
+                <a href="assets/img/project10.jpg" title="Map 2" data-gallery="portfolio-gallery-Map"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+
+
+    <!-- Pricing Section -->
+    <!-- <section id="pricing" class="pricing section light-background"> -->
+
+    <!-- Section Title -->
+    <!-- <div class="container section-title" data-aos="fade-up"> -->
+    <!-- <h2>Pricing</h2> -->
+    <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+    <!-- </div>End Section Title -->
+
+    <!-- <div class="container"> -->
+
+    <!-- <div class="row gy-4"> -->
+
+    <!-- <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Free Plan</h3>
+              <h4><sup>$</sup>0<span> / month</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li>
+                <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li>
+                <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Buy Now</a>
+            </div> -->
+    <!-- </div>End Pricing Item -->
+
+    <!-- <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200"> -->
+    <!-- <div class="pricing-item featured"> -->
+    <!-- <h3>Business Plan</h3> -->
+    <!-- <h4><sup>$</sup>29<span> / month</span></h4> -->
+    <!-- <ul> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li> -->
+    <!-- </ul> -->
+    <!-- <a href="#" class="buy-btn">Buy Now</a> -->
+    <!-- </div> -->
+    <!-- </div>End Pricing Item -->
+    <!--  -->
+    <!-- <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300"> -->
+    <!-- <div class="pricing-item"> -->
+    <!-- <h3>Developer Plan</h3> -->
+    <!-- <h4><sup>$</sup>49<span> / month</span></h4> -->
+    <!-- <ul> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Quam adipiscing vitae proin</span></li> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Nec feugiat nisl pretium</span></li> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Nulla at volutpat diam uteera</span></li> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Pharetra massa massa ultricies</span></li> -->
+    <!-- <li><i class="bi bi-check"></i> <span>Massa ultricies mi quis hendrerit</span></li> -->
+    <!-- </ul> -->
+    <!-- <a href="#" class="buy-btn">Buy Now</a> -->
+    <!-- </div> -->
+    <!-- </div>End Pricing Item -->
+
+    <!-- </div> -->
+
+    <!-- </div>/ -->
+
+    <!-- </section> -->
+    <!-- /Pricing Section -->
+
+    <!-- Faq Section -->
+    <!-- <section id="faq" class="faq section"> -->
+
+    <!-- Section Title -->
+    <!-- <div class="container section-title" data-aos="fade-up"> -->
+    <!-- <h2>Frequently Asked Questions</h2> -->
+    <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p> -->
+    <!-- </div>End Section Title -->
+
+    <!-- <div class="container">
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Non consectetur a erat nam at lectus urna duis?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            </p> -->
+    <!-- </div> -->
+    <!-- </div>End F.A.Q Item -->
+
+    <!-- <div class="row faq-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim.
+            </p>
+          </div>
+        </div>End F.A.Q Item -->
+
+    <!-- <div class="row faq-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus.
+            </p>
+          </div>
+        </div> End F.A.Q Item-->
+    <!-- 
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Aperiam itaque sit optio et deleniti eos nihil quidem cumque. Voluptas dolorum accusantium sunt sit enim. Provident consequuntur quam aut reiciendis qui rerum dolorem sit odio. Repellat assumenda soluta sunt pariatur error doloribus fuga.
+            </p> -->
+    <!-- </div> -->
+    <!-- </div>End F.A.Q Item -->
+    <!-- 
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p> -->
+    <!-- Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in -->
+    <!-- </p> -->
+    <!-- </div> -->
+    <!-- </div>End F.A.Q Item -->
+
+    <!-- </div> -->
+
+    <!-- </section>/Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>If you have any query kindly Contact Us:</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 ">
+            <div class="row gy-4">
+
+              <div class="col-lg-12">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                  data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>13-C 37th Tauheed Commercial Street (PSO) off 26th Street, DHA Phase-V,</p><br>
+                  <p> Karachi, PAKISTAN</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                  data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+92 321 2724 214</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                  data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>info@buildmax.com.pk</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+              data-aos-delay="500">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container">
+      <h3 class="sitename">BUILD<span style="color: #feb304;">MAX</span></h3>
+      <p>With a strong focus on quality, safety, and innovation, we strive to exceed expectations and build long-lasting
+        relationships.</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-skype"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        <span>Copyright</span> <strong class="px-1 sitename">Build<span style="color: #feb304;">Max</span></strong>
+        <span>All Rights Reserved</span>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="#">Sibex Systems</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+  <!-- Bootstrap 5 and MDBootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+
+
+  <script>
+    // Initialization for ES Users
+    import { Carousel, initMDB } from "mdb-ui-kit";
+
+    initMDB({ Carousel });
+  </script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
